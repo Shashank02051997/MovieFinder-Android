@@ -14,7 +14,7 @@ Check out the Android App to search movies from OMDb Api using Kotlin...😉😀
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/Shashank02051997/ClassroomUI-Android/pulls).
+[pull requests](https://github.com/Shashank02051997/MovieFinder-Android/pulls).
 
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
 but will be thoroughly reviewed .
