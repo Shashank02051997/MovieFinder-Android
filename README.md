@@ -5,17 +5,11 @@ Check out the Android App to search movies from OMDb Api using Kotlin...😉😀
 
 **Please click the image below to enlarge.**
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120535.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120541.png" height="600" width="300" hspace="40">
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120549.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120602.png" height="600" width="300" hspace="40">
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
-
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
-
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
-
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120619.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120626.png" height="600" width="300" hspace="40">
 
 ## Contributing
 
