@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 tools:context=".Register">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:theme="@style/AppTheme.Toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/calibri"
+                        android:text="Hello!"
+                        android:textColor="#000000"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/calibri"
+                        android:text="Please signup to continue"
+                        android:textColor="#FF6A7179"
+                        android:textSize="16sp" />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/firstname_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColorHint="#FFB3B3B3">
+
+                    <EditText
+                            android:id="@+id/firstname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="16dp"
+                            android:drawableStart="@drawable/ic_person_gray_24dp"
+                            android:fontFamily="@font/calibri"
+                            android:hint="Firstname"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/lastname_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColorHint="#FFB3B3B3">
+
+                    <EditText
+                            android:id="@+id/lastname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="16dp"
+                            android:drawableStart="@drawable/ic_person_gray_24dp"
+                            android:fontFamily="@font/calibri"
+                            android:hint="Lastname"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/email_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColorHint="#FFB3B3B3">
+
+                    <EditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="16dp"
+                            android:drawableStart="@drawable/ic_email_gray_24dp"
+                            android:fontFamily="@font/calibri"
+                            android:hint="Email address"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/password_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColorHint="#FFB3B3B3"
+                        app:passwordToggleEnabled="true">
+
+                    <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="16dp"
+                            android:drawableStart="@drawable/ic_lock_gray_24dp"
+                            android:fontFamily="@font/calibri"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:maxLength="10"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/retype_password_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColorHint="#FFB3B3B3"
+                        app:passwordToggleEnabled="true">
+
+                    <EditText
+                            android:id="@+id/retype_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="16dp"
+                            android:drawableStart="@drawable/ic_lock_gray_24dp"
+                            android:fontFamily="@font/calibri"
+                            android:hint="Retype Password"
+                            android:inputType="textPassword"
+                            android:maxLength="10"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/contact_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColorHint="#FFB3B3B3">
+
+                    <EditText
+                            android:id="@+id/contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="16dp"
+                            android:drawableStart="@drawable/ic_local_phone_gray_24dp"
+                            android:fontFamily="@font/calibri"
+                            android:hint="Contact number"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                        android:id="@+id/sign_up"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/buttonshape"
+                        android:fontFamily="@font/calibri"
+                        android:text="Sign up"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="vertical">
+
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#80D1D1D1" />
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="50"
+                                android:fontFamily="@font/calibri"
+                                android:paddingTop="16dp"
+                                android:paddingBottom="16dp"
+                                android:text="Already registered?"
+                                android:textAlignment="textEnd"
+                                android:textColor="#757575"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                        <TextView
+                                android:id="@+id/sign_in"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="50"
+                                android:fontFamily="@font/calibri"
+                                android:paddingTop="16dp"
+                                android:paddingBottom="16dp"
+                                android:text=" Sign in now"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
