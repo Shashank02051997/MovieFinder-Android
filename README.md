@@ -1,7 +1,7 @@
 # MovieFinder-Android
 Check out the Android App to search movies from OMDb Api using Kotlin...😉😀😁😎
 
-## Screenshots
+## 📸 Screenshots
 
 **Please click the image below to enlarge.**
 
@@ -26,3 +26,5 @@ but will be thoroughly reviewed .
 - [Facebook](https://www.facebook.com/shashanksinghal02)
 ### Like our facebook page
 - [Android UI's Bucket](https://www.facebook.com/androiduisbucket)
+
+### Show some :heart: and star the repo to support the project
